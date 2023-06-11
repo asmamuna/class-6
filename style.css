@@ -1,0 +1,48 @@
+*{
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: mediumseagreen;
+}
+li{
+    display: inline;
+}
+a{
+    display:inline-block;
+    text-decoration: none;
+    padding: 15px;
+    color:white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    transition: .7s;
+}
+a:hover{
+    background-color: #5F9EA0;
+    border-bottom: 10px solid black;
+    color: black;
+}
+#main_1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 70px ;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/010/713/744/large_2x/foodgraphy-on-dining-table-photo.jpg);
+    background-size: cover;
+    height: 900px;
+}
+button{
+    align: center;
+    background-color:#0FFF50; 
+    font-size: 20px;
+    color:black;
+}
+button:hover{
+    border-radius: 50%;
+}
